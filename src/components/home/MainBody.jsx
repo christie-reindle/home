@@ -25,7 +25,7 @@ const MainBody = React.forwardRef(
               {message}
             </div>
           </Typist>
-          <div className="p-5">
+          {/* <div className="p-5">
             {icons.map((icon, index) => (
               <a
                 key={`social-icon-${index}`}
@@ -37,15 +37,7 @@ const MainBody = React.forwardRef(
                 <i className={`fab ${icon.image}  fa-3x socialicons`} />
               </a>
             ))}
-          </div>
-          <a
-            className="btn btn-outline-light btn-lg "
-            href="#aboutme"
-            role="button"
-            aria-label="Learn more about me"
-          >
-            More about me
-          </a>
+          </div> */}
         </Container>
       </Jumbotron>
     );

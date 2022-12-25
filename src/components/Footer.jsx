@@ -9,14 +9,10 @@ const Footer = (props) => {
       <Container>
         {props.children}
         <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
-        <a
-          rel="noopener"
-          href="https://github.com/hashirshoaeb"
-          aria-label="My GitHub"
-        > <span className="badge bg-dark">
-            Hashir Shoaib
-          </span>
-        </a>{" "}
+        <span className="badge bg-dark">
+          Kaitlin Ridge
+        </span>
+        {" "}
         using <i className="fab fa-react" />
         <p>
           <small className="text-muted">

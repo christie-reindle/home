@@ -8,9 +8,9 @@ import {
 
 const Experience = ({ experiences }) => {
   return (
-    <section className="section">
+    <section className="section" style={{ backgroundColor: "rgb(233, 236, 239)" }}>
       <Container>
-        <Jumbotron className="bg-white">
+        <Jumbotron id="experiences">
           <h2 className="display-4 mb-5 text-center">
             {experiences.heading}
           </h2>
