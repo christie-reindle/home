@@ -60,7 +60,7 @@ const leadership = {
   show: true,
   heading: "Portfolio",
   message:
-    "As a In-Home Design Specialist for The Container Store, Katie would hold In-Home consultations that included discussing the needs and style for the space, measuring, and designing. In this position, she would design any storage solution, from mudrooms to primary closets. In her role as Interior Design Consultant with Floor and Décor, Katie led residential projects and partnered on commercial projects. Some of her notable projects include: managing floor and tile design for a 6,000 sq. ft. spec home, and selecting floor and tile for a new-build duplex in Nigeria. During this time, Katie also designed several residential projects.",
+    "In her previous role as a In-Home Design Specialist for The Container Store, Katie would hold In-Home consultations that included discussing the needs and style for the space, measuring, and designing. In this position, she would design any storage solution, from mudrooms to primary closets. As an Interior Design Consultant with Floor and Décor, Katie led residential projects and partnered on commercial projects. Some of her notable projects include: managing floor and tile design for a 6,000 sq. ft. spec home, and selecting floor and tile for a new-build duplex in Nigeria. During this time, Katie also designed several residential projects.",
   images: [
     { 
       img: require("../editable-stuff/hashirshoaeb.png"), 
@@ -91,7 +91,6 @@ const skills = {
     { name: "Commercial Design" },
   ],
   softSkills: [
-    { name: "Presentations" },
     { name: "Detail Oriented" },
     { name: "Project Management" },
     { name: "Budgeting" },
