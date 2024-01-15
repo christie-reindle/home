@@ -5,7 +5,7 @@ const repoURL = "https://github.com/christie-reindle/home";
 ghpages.publish(
   pathname,
   {
-    branch: "other8",
+    branch: "other9",
     repo: repoURL,
   },
   (err) => {
