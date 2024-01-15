@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Katie",
   middleName: "",
   lastName: "Ridge",
-  message: " Aspiring interior designer ",
+  message: " Aspiring Interior Designer ",
   icons: [
     {
       image: "fa-linkedin",
@@ -38,7 +38,7 @@ const about = {
   imageLink: require("../assets/img/aboutme.jpeg"),
   imageSize: 375,
   message:
-    "Katie strives to design interiors that create a positive impact on her clients’ lives.  What started as a hobby, quickly became a passion for her. With an eye for quality, style, and a client-centered approach to design, Katie Ridge has proven herself as an innovative designer.   In her spare time, Katie enjoys spending time with her family and dogs, exploring Denver’s food scene, and recently lifting.",
+    "Katie strives to design interiors that create a positive impact on her clients’ lives.  What started as a hobby, quickly became a passion for her. With an eye for quality, style, and a client-centered approach to design, Katie Ridge has proven herself as an innovative designer. In her spare time, Katie enjoys spending time with her family and dogs, exploring Denver’s food scene, and recently lifting.",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
@@ -60,7 +60,7 @@ const leadership = {
   show: true,
   heading: "Portfolio",
   message:
-    "In her previous role as an Interior Design Consultant with Floor and Décor, Katie led residential projects and partnered on commercial projects. Some of her notable projects include: managing floor and tile design for a 6,000 sq. ft. spec home, and selecting floor and tile for a new-build duplex in Africa. During this time, Katie also designed several residential projects.",
+    "As a In-Home Design Specialist for The Container Store, Katie would hold In-Home consultations that included discussing the needs and style for the space, measuring, and designing. In this position, she would design any storage solution, from mudrooms to primary closets. In her role as Interior Design Consultant with Floor and Décor, Katie led residential projects and partnered on commercial projects. Some of her notable projects include: managing floor and tile design for a 6,000 sq. ft. spec home, and selecting floor and tile for a new-build duplex in Nigeria. During this time, Katie also designed several residential projects.",
   images: [
     { 
       img: require("../editable-stuff/hashirshoaeb.png"), 
@@ -84,12 +84,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
+    { name: "Custom Design Center" },
     { name: "Sketchup" },
     { name: "Maticad - Tile Planner" },
     { name: "Residential Design" },
     { name: "Commercial Design" },
   ],
   softSkills: [
+    { name: "Presentations" },
     { name: "Detail Oriented" },
     { name: "Project Management" },
     { name: "Budgeting" },
@@ -111,7 +113,12 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Interior Design Consultant ',// Here Add Company Name
+      role: 'In-Home Design Specialist ',// The Container Store
+      companylogo: require('../assets/img/thecontainerstore.jpeg'),
+      date: 'February 2023 - December 2023',
+    },
+    {
+      role: 'Interior Design Consultant ',// Floor and Decor
       companylogo: require('../assets/img/floor&decor.jpeg'),
       date: 'January 2022 - September 2022',
     },
